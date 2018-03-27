@@ -25,7 +25,7 @@ class SimpleMap extends React.Component {
       // Important! Always set the container height explicitly
       <div style={{ height: '50vh', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: apikey }}
+          bootstrapURLKeys={{ key: "AIzaSyCTTx91EQ6_tgV6x-jOEyFIp5ZXj5jcrlQ" }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           options={createMapOptions}
@@ -171,7 +171,7 @@ const ContactPage = () => (
 
       <div className="contact-page__form">
         <div className="contact__icons">
-        <a href={`mailto:${email}`} target="_blank"><i className="fas fa-envelope fa-3x"></i></a>
+        <a href="mailto:sarthakgupta259@gmail.com" target="_blank"><i className="fas fa-envelope fa-3x"></i></a>
         <a href="https://github.com/sar-gupta" target="_blank"><i className="fab fa-github-square fa-3x"></i></a>
         <a href="https://medium.com/@sargupta" target="_blank"><i className="fab fa-medium fa-3x"></i></a>                
         <a href="https://www.facebook.com/sarthak.gupta.259" target="_blank"><i className="fab fa-facebook fa-3x"></i></a>
