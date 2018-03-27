@@ -1,0 +1,16 @@
+.full-page {
+  height: 100vh;
+}
+
+.navbar {
+  background: $dark-grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 $m-size;
+}
+
+.navbar-item {
+  margin: $s-size 0;
+}

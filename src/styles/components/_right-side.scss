@@ -1,0 +1,41 @@
+.right-side {
+  padding: $l-size;
+  background: $grey;
+  color: white;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.right-side::-webkit-scrollbar {
+  display: none;
+}
+
+.right-side__title {
+  position: relative;
+  line-height: 1.6;
+  vertical-align: middle;
+  margin: auto 0;
+
+  h3 {
+    color: lighten($navbar-grey, 50);
+    font-weight: 300;
+    font-style: italic;
+    word-spacing: 0;
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    word-spacing: $m-size;
+    margin-left: 10rem;
+  }
+}
+
+.right-side__title__text {
+  font-size: 3rem;
+  font-weight: bold;
+  @media (min-width: $desktop-breakpoint) {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,18 @@
+.button--contact {
+  font-weight: 550;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid $cyan;
+  border-radius: 3px;
+  word-spacing: $s-size;
+  letter-spacing: .8rem;
+  line-height: 1;
+  text-decoration: none;
+  color: $cyan;
+  padding: $s-size;
+  font-size: 1rem;
+  transition: background .2s ease, color .2s ease;
+  &:hover {
+    background: $cyan;
+    color: $grey;
+  }
+}

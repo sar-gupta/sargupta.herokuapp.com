@@ -1,0 +1,37 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.contact__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  a {
+    margin-top: $m-size;
+    @media(min-width: $desktop-breakpoint) {
+      margin-right: $l-size;
+    }
+  }
+  i {
+    color: darken(white, 10);
+    &:hover {
+      color: #FD1056;
+    }
+  }
+  @media(min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
+}
+
+.contact-page__map {
+  margin: $l-size 0 0 0;
+}
+.map-marker {
+  color: darken(white, 10);
+  &:hover {
+    color: #FD1056;
+  }
+}

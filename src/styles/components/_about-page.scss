@@ -1,0 +1,21 @@
+.about-page__title {
+  margin-top: $l-size;
+  width: 100%;
+  .right-side__title__text {
+    color: $cyan;
+  }
+
+  .right-side__title__body {
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    font-size: $font-size-large;
+    line-height: 2;
+    margin-top: $m-size;
+    color: darken(white, 10);
+    @media (min-width: $desktop-breakpoint) {
+      width: 50vw;
+    }
+  }
+}

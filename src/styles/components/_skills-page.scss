@@ -1,0 +1,32 @@
+.skills__list {
+  line-height: 2;
+  word-spacing: 0;
+  color: darken(white, 10);
+  list-style-type: none;
+  margin: $l-size 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 2.2rem;
+
+  // li {
+  //   padding-left: 16px;
+  // }
+
+  li:before {
+      content: "•";
+      padding-right: $m-size;
+      color: $cyan;
+  }
+}
+
+.skills__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
+  > div {
+    flex: 1;
+  }
+}
