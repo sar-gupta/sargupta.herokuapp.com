@@ -2,7 +2,7 @@
 
 This is the repository for a personal portfolio website.
 
-sargupta.herokuapp.com
+https://sargupta.herokuapp.com
 
 ## To run locally
 
