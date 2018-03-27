@@ -1,7 +1,6 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import AnimatedText from './AnimatedText';
-import { email, apikey } from '../credentials';
 
 const display = (stringToBeAnimated) => {
   return stringToBeAnimated.split('').map((letter, index) => {
